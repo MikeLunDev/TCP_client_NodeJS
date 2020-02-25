@@ -47,6 +47,7 @@ class Vehicle {
     await webhooks.onDeviceDisconnectionWebhook(this.device_id, this.motorType);
   };
 
+  //get coordinates like floating number
   getRandomCoordinates = (from, to, fixed) => (Math.random() * (to - from) + from).toFixed(fixed) * 1;
 
   //simulate movement of the vehicle
