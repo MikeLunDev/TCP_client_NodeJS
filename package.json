@@ -1,0 +1,16 @@
+{
+  "name": "client2hireTCP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "uuidjs": "^4.2.4"
+  }
+}
